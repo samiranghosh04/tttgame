@@ -1,70 +1,39 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **Starter React JS Project TicTacToe Game from the official react.js tutorial with some minor styling changes.**
 
-## Available Scripts
+<br>
+<p>This project is pretty much the same as the TicTacToe game featured in the **Tutorial** section of the official reactjs documentation, however if you are unfamilar with it, everything you need to know is explained below.</p><br>
 
-In the project directory, you can run:
+## **What is TicTacToe?**
 
-### `npm start`
+<br>
+<p>
+TicTacToe also known as Noughts and Crosses, or Xs and Os is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a solved game, with a forced draw assuming best play from both players. This game is just a digitized version of the same built using React.js.
+</p>
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Gameplay**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
+<p>
+TicTacToe is played on a 3*3 grid by 2 players, who alternately place the marks X and O in 1 of the 9 spaces in the grid. The player who manages to create a single, unbroken line of Xs or Os wins.
+</p>
 
-### `npm test`
+<p>
+To get started, simply click on any of the 9 boxes, and the game will start with the first player being X (which cannot be changed as of now) and an X will appear in the box on which the first player has clicked. The game then automatically switches to the next player i.e O and expects the 2nd user to click on the screen anad this cycle is repeated until a winner is declared or we reach a stalemate.</p>
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Time Traveling is now possible!**
 
-### `npm run build`
+<p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Accidentally clicked on th wrong box? Dont worry! Under the boxes you will find an ordered list of buttons that expands as you progress through the game, just click on the **"Go to move #n" button** to go back and play the **nth move** or click on **"Go to game start" button** to restart the game.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Note - As of now the list of buttons doesnt disappear when you restart or track back through multiple moves but I am working on it**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**I hope you enjoy it and feel free to leave any feedback. Thanks for playing!
+<br><p>~ Samiran**</p></p>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+<p>
